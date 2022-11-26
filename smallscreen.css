@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+Day:2022/10/1/19:33
+User:Mr.Wan
+*/
+.nar-in{ /*搜索框*/
+    height: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.logo{ /*logo*/
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+}
+
+.logo-text{ /*logo 字体父元素*/
+    margin-right: 10%;
+}
+
+.text{  /*家昊*/
+    width: 100px;
+}
+
+.inp{ /*索搜框*/
+    width: 280%;
+}
+
+.boot{ /*按钮*/
+    left: 88%;
+}
+.menu-box ul{ /*菜单*/
+    margin-left: 10%;
+}
+.main{
+    display: flex !important;
+    overflow: hidden!important;
+    flex-wrap: wrap !important;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*
+Day:2022/10/2/10:53
+User:Mr.Wan
+*/
+/*top*/
+.nar-in ul li{
+    font-size: 12px;
+}
+/*top end*/
+.inp{
+    width: 100%;
+}
+.boot{
+    left: 77%;
+}
+
+.logo-text{
+    margin-right: 1%;
+}
+.menu-box ul {
+    margin-left: 12%;
+}
+.menu-box ul li {
+    font-size: 13px;
+    padding: 0 4%;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap !important;
+}
+
+.left{
+    display: none;
+}
+
+.mid .mid-i img {
+    width: 95%;
+    height: 90%;
+}
+.mid .mid-i img:hover {
+    width: 98%;
+    height: 93%;
+    transform: translateY(-3px);
+}
+
+.mid .mid-img img {
+    width: 42%;
+    height: 93%;
+}
+
+.mid .mid-img img:hover {
+    width: 45%;
+    height: 98%;
+}
+
+.news li{
+    /*display: none;*/
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.goods-box{
+    width: 200px!important;
+}
+
+@media screen and (max-width: 341px) {
+    .nar-in ul li{
+        margin-left: 10px;
+    }
+    .nar-in ul li img{
+        display: none;
+    }
+    .inp{
+        width: 55%;
+    }
+    .boot{
+        left: 55%;
+    }
+    .yes{
+        display: none;
+    }
+}
